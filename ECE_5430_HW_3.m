@@ -18,7 +18,7 @@ K = [0.1, -0.3, 0.5, 0.1;
 % Precision Matrix, R
 R = K^-1
 plot(R, '.', 'MarkerSize', 32)
-title('Precision Matrix Plot(R)');
+title({'Precision Matrix Plot', 'R = K^-^1'});
 saveas(gcf, 'PrecisionMatrixPlot.jpg');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
